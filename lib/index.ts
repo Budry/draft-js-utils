@@ -7,12 +7,17 @@
  * file that was distributed with this source code.
  */
 
-import {CreateComponentWithEditorContext} from './createComponentWithEditorContext';
-import {ComponentWithEditorContext} from './EditorContext';
+import {InjectedBLockStyleProps} from './createToggleBlockStyleButton';
 
 export {
-    default as EditorContext, ComponentWithEditorContext, SetEditorStateFunction, GetEditorStateFunction
+    default as EditorContext,
+    ComponentWithEditorContext,
+    SetEditorStateFunction,
+    GetEditorStateFunction
 } from './EditorContext';
 export {
-    default as createComponentWithEditorContext, CreateComponentWithEditorContext
+    default as createComponentWithEditorContext,
+    CreateComponentWithEditorContext
 } from './createComponentWithEditorContext';
+export {default as createToggleInlineStyleButton, InjectedInlineStyleProps} from './createToggleInlineStyleButton'
+export {default as createToggleBlockStyleButton, InjectedBLockStyleProps} from './createToggleBlockStyleButton'
