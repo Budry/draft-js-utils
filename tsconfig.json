@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "outDir": "./dist/lib",
+    "declarationDir": "./dist/types",
+    "declaration": true
+  },
+  "include": [
+    "./lib/**/*.ts",
+    "./lib/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
