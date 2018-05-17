@@ -7,8 +7,6 @@
  * file that was distributed with this source code.
  */
 
-import {InjectedBLockStyleProps} from './createToggleBlockStyleButton';
-
 export {
     default as EditorContext,
     ComponentWithEditorContext,
@@ -19,5 +17,9 @@ export {
     default as createComponentWithEditorContext,
     CreateComponentWithEditorContext
 } from './createComponentWithEditorContext';
-export {default as createToggleInlineStyleButton, InjectedInlineStyleProps} from './createToggleInlineStyleButton'
-export {default as createToggleBlockStyleButton, InjectedBLockStyleProps} from './createToggleBlockStyleButton'
+export {
+    createToggleBlockStyleButton,
+    createToggleInlineStyleButton,
+    InjectedToggleStyleButtonProps,
+    CreateToggleStyleButton,
+} from './createToggleStyleButton';
