@@ -7,5 +7,12 @@
  * file that was distributed with this source code.
  */
 
-export {default as EditorContext} from './EditorContext';
-export {default as createComponentWithEditorContext} from './createComponentWithEditorContext';
+import {CreateComponentWithEditorContext} from './createComponentWithEditorContext';
+import {ComponentWithEditorContext} from './EditorContext';
+
+export {
+    default as EditorContext, ComponentWithEditorContext, SetEditorStateFunction, GetEditorStateFunction
+} from './EditorContext';
+export {
+    default as createComponentWithEditorContext, CreateComponentWithEditorContext
+} from './createComponentWithEditorContext';

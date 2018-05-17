@@ -11,7 +11,7 @@ import {Context, createContext} from 'react';
 import {EditorState} from 'draft-js';
 
 export interface ComponentWithEditorContext {
-    getEditorState: GetEditrStateFunction,
+    getEditorState: GetEditorStateFunction,
     setEditorState: SetEditorStateFunction
 }
 
@@ -19,12 +19,12 @@ export interface SetEditorStateFunction {
     (editorState: EditorState): void
 }
 
-export interface GetEditrStateFunction {
+export interface GetEditorStateFunction {
     (): EditorState
 }
 
 const EditorContext: Context<{
-    getEditorState: GetEditrStateFunction,
+    getEditorState: GetEditorStateFunction,
     setEditorState: SetEditorStateFunction
 }> = createContext({
     getEditorState: () => null,
