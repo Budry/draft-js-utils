@@ -1,7 +1,7 @@
 {
   "name": "draftjs-utils",
   "version": "0.1.0",
-  "description": "Some basic utilities for much simplier work with DraftJS",
+  "description": "Some basic utilities for much simpler work with DraftJS",
   "main": "./dist/lib/index.js",
   "typings": "./dist/types/index.d.ts",
   "repository": "git@github.com:Budry/draftjs-utils.git",
