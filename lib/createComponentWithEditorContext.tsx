@@ -10,7 +10,7 @@
 import * as React from 'react';
 import {ComponentClass, StatelessComponent} from 'react';
 import EditorContext, {ComponentWithEditorContext} from './EditorContext';
-import Omit from './Omit';
+import Omit from './utils/Typings';
 
 export interface CreateComponentWithEditorContext {
     <P extends ComponentWithEditorContext>(WrappedComponent: ComponentClass<P> | StatelessComponent<P>): StatelessComponent<Omit<P, 'getEditorState' | 'setEditorState'>>
