@@ -8,7 +8,7 @@ Some basic utilities for much simpler work with DraftJS
 
 ```typescript jsx
 
-import {createToggleInlineStyleButton, createToggleBlockStyleButton} from 'draftjs-utils';
+import {createToggleInlineStyleButton, createToggleBlockStyleButton} from 'draft-js-utils';
 
 const EditorButton = ({toggleStyle, isActive, children}) => {
     const handleClick = () => {
@@ -29,7 +29,7 @@ const BLockStyleButton = createToggleBlockStyleButton(EditorButton);
 
 ```typescript jsx
 
-import {createComponentWithEditorContext} from 'dratjs-utils'
+import {createComponentWithEditorContext} from 'draft-js-utils'
 
 const MyModalWindow = ({getEditorState, setEditorState}) => {
     const handleClick = () => {

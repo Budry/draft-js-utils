@@ -1,5 +1,5 @@
 {
-  "name": "draftjs-utils",
+  "name": "draft-js-utils",
   "version": "0.1.0",
   "description": "Some basic utilities for much simpler work with DraftJS",
   "main": "./dist/lib/index.js",
