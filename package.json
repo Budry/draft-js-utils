@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Some basic utilities for much simplier work with DraftJS",
   "main": "./dist/lib/index.js",
-  "typings": "dist/types/index.d.ts",
+  "typings": "./dist/types/index.d.ts",
   "repository": "git@github.com:Budry/draftjs-utils.git",
   "author": "Ondřej Záruba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)",
   "license": "MIT",

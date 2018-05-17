@@ -8,8 +8,8 @@
     "declaration": true
   },
   "include": [
-    "./lib/**/*.ts",
-    "./lib/**/*.tsx"
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
   ],
   "exclude": [
     "node_modules"
