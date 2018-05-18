@@ -4,6 +4,10 @@ Some basic utilities for much simpler work with DraftJS
 
 ## Utilities
 
+* [Toggle buttons](#toggle-buttons)
+* [Custom component](#custom-component)
+* [Default inline and block styles](#default-inline-and-block-styles)
+
 ### Toggle buttons
 
 ```typescript jsx
