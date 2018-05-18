@@ -45,3 +45,15 @@ const MyModalWindow = ({getEditorState, setEditorState}) => {
 const MyModalWithEditorContext = createComponentWithEditorContext(MyModalWindow);
 
 ```
+
+### Default inline and block styles
+```typescript jsx
+import {DefaultInlineStyles, DefaultBlockStyles} from 'draft-js-utils'
+
+const buttons = [
+    {style: DefaultInlineStyles.BOLD, children: <i className="fas fa-bold" />},
+    {style: DefaultInlineStyles.ITALIC, children: <i className="fas fa-italic" />},
+    {style: DefaultBlockStyles.ORDERED_LIST, children: <i className="fas fa-list-ol" />}
+];
+
+```
