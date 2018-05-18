@@ -23,3 +23,7 @@ export {
     InjectedToggleStyleButtonProps,
     CreateToggleStyleButton,
 } from './createToggleStyleButton';
+export {
+    DefaultBlockStyles,
+    DefaultInlineStyles
+} from './DefaultStyles'
