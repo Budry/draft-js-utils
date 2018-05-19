@@ -1,10 +1,10 @@
 {
-  "name": "draft-js-utils",
+  "name": "draft-js-utils-collection",
   "version": "0.1.0",
   "description": "Some basic utilities for much simpler work with DraftJS",
   "main": "./dist/lib/index.js",
   "typings": "./dist/types/index.d.ts",
-  "repository": "git@github.com:Budry/draftjs-utils.git",
+  "repository": "git@github.com:Budry/draft-js-utils-collection.git",
   "author": "Ondřej Záruba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)",
   "license": "MIT",
   "private": false,
@@ -12,7 +12,9 @@
     "draftjs",
     "draft",
     "react",
-    "editor"
+    "editor",
+    "rich",
+    "text"
   ],
   "scripts": {
     "build": "tsc",
