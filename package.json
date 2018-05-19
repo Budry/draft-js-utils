@@ -8,9 +8,16 @@
   "author": "Ondřej Záruba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "draftjs",
+    "draft",
+    "react",
+    "editor"
+  ],
   "scripts": {
     "build": "tsc",
-    "prebuild": "rm ./dist/ -rf"
+    "prebuild": "rm ./dist/ -rf",
+    "prepublish": "yarn run build"
   },
   "devDependencies": {
     "@types/draft-js": "^0.10.23",
